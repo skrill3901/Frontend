@@ -230,6 +230,9 @@
   background-color: #989898;
   border-radius: 5px;
   position: relative;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .reviews-figcap:before {
@@ -247,7 +250,7 @@
   line-height: 18px;
   font-weight: 400;
   font-style: italic;
-  margin: 15px 10px 0 15px;
+  margin: 0 0 10px 0;
 }
 
 .reviews-figure-p2 {
@@ -255,7 +258,7 @@
   line-height: 18px;
   font-weight: 400;
   color: white;
-  margin: 10px 0 10px 15px;
+  margin: 0;
 }
 
 .buy-flex {
@@ -272,6 +275,7 @@
 
 .buy-box {
   width: 300px;
+  min-height: 100px;
   border: 2px solid #445162;
   border-radius: 5px;
   background-color: #445162;
@@ -284,18 +288,19 @@
           flex-direction: column;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 0;
+  padding: 15px 0;
+  color: #fff;
 }
 
 .bb-h3 {
   color: #ffffff;
   text-align: center;
-}
-
-.bb-h3 h3 {
   font-size: 24px;
   line-height: 30px;
   font-weight: 400;
-  margin: 12px 0 12px 0;
+  margin: 0 0 15px 0;
+  width: 100%;
 }
 
 .bb-p {
@@ -305,11 +310,8 @@
   color: #445162;
   text-align: center;
   background-color: #ffffff;
-}
-
-.bb-p p {
-  margin: 15px 0 15px 0;
-  background-color: #ffffff;
+  margin: 0;
+  padding: 10px;
 }
 
 .bb-list-container {
@@ -357,6 +359,7 @@
   line-height: 18px;
   font-weight: 700;
   color: #445161;
+  text-transform: uppercase;
 }
 
 .bb-buttom:hover {
@@ -439,6 +442,7 @@
       -ms-grid-row-align: center;
       align-self: center;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .footer-bottom:hover {
