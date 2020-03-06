@@ -1,0 +1,179 @@
+.main-header
+    width: 1920px
+    min-height: 1024px
+    background-color: rgba(17,17,17,0.7)
+    background-image: url("../img/head.jpg")
+    background-repeat: no-repeat
+    padding: 40px
+    box-sizing: border-box
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+.clearfix:after 
+  content: ""
+  display: block
+  clear: both
+.header-top
+  display: flex
+  justify-content: space-evenly
+  align-items: center
+.logo
+    font-family: Raleway
+    font-size: 34px
+    line-height: 1.2
+    font-weight: 400
+    letter-spacing: -0.04em
+    color: #ffffff
+    text-decoration: none
+    display: flex
+    align-items: center
+    svg
+      fill: currentColor
+    &:hover
+      color: #998675
+.main-menu
+  margin: 0
+  a
+    font-family: Montserrat
+    font-size: 14px
+    line-height: 1.2
+    font-weight: 300
+    color: #ffffff
+    text-decoration: none
+    margin-right: 15px
+    &:hover
+      color: #998675
+    svg
+      fill: currentColor
+input[type="search"] 
+  width: 24px
+  height: 24px
+  outline: none
+  background-image: url("../img/search.png")
+  background-size: contain
+  background-repeat: no-repeat
+  border-radius: 5px
+  border: none
+  background-color: transparent
+  font-family: Montserrat
+  font-size: 14px
+  line-height: 1.2
+  font-weight: 300
+  color: #ffffff
+  &:focus
+    width: 200px
+    transition: width 1s ease-out
+    background-position: right
+.header-bottom
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+.slider-arrow
+  display: block
+  width: 52px
+  height: 52px
+  border-top: 3px solid #d3c1ad
+  border-right: 3px solid #d3c1ad
+  transform: rotate(45deg)
+  margin-top: 100px
+  &:hover
+    border-top: 3px solid orange
+    border-right: 3px solid orange
+.slider-arrow1
+  transform: rotate(225deg)
+.slogan
+  display: flex
+  flex-direction: column
+  width: 600px
+  align-items: center
+  margin-bottom: 310px
+  position: relative
+.header-slogan1
+  font-family: Raleway
+  font-size: 36px
+  line-height: 1.2
+  font-weight: 500
+  color: #ffffff
+.header-slogan2
+  font-family: Raleway
+  font-size: 52px
+  line-height: 1.2
+  font-weight: 800
+  color: #ffffff
+.header-slogan-p
+  font-family: Montserrat
+  font-size: 16px
+  line-height: 24px
+  font-weight: 300
+  color: #ffffff
+  text-align: center
+  margin: 15px 0 0 0
+.header-button
+  width: 170px
+  height: 53px
+  background-color: #998675
+  border-radius: 3.0px
+  display: flex;
+  justify-content: center
+  align-items: center
+  font-family: Raleway
+  font-size: 14px
+  line-height: 23px
+  font-weight: 800
+  text-transform: uppercase
+  color: #ffffff
+  text-decoration: none
+  margin: 50px 0 0 0
+  &:hover
+    background-color: #ffffff
+    color: #998675
+    
+.pagination
+  display: flex
+  position: absolute
+  bottom: -310px
+.pagination-item
+  width: 11px
+  height: 11px
+  opacity: 0.5
+  background-color: #ffffff
+  border-radius: 50%
+  box-sizing: border-box
+  margin: 0 10px 0 0
+  &:hover
+    background-color: transparent
+    border: 2.0px solid #d3c1ad
+    transform: scale(1.4)
+.main-menu-content
+  margin: 80px 0 0 0
+  display: flex
+  justify-content: center
+.menu-content
+  fill: currentColor
+  display: flex
+  flex-direction: column
+  width: 300px
+  align-items: center
+  color: #555555
+  &-name
+    font-family: Raleway
+    font-size: 22px
+    line-height: 1.2
+    font-weight: 600
+  &-text
+    font-family: Montserrat
+    font-size: 14px
+    line-height: 24px
+    font-weight: 300
+    color: #8c8c8c
+    text-align: center
+  &:after
+    content: ""
+    display: block
+    width: 70px
+    height: 3px
+    background-color: #f1eee9
+  &:hover:after
+    background-color: #c7b299
+  &:hover
+    color: #c7b299
